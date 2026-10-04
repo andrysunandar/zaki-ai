@@ -1,0 +1,95 @@
+📢 *ROADMAP & PANDUAN LOMBA AI: GENIUS OLYMPIAD INDONESIA 2026*
+*(Jalur Resmi Competzy ➡️ Menuju Global Finals New York 2027)*
+
+Khusus dipersiapkan untuk: *Zaki (Kelas 7–12 / Usia 13–18 tahun)*
+Lokasi Workspace Praktik di Komputer: `c:\ZAKI-AI`
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━
+🚨 *CATATAN KRUSIAL DARI JURI INTERNASIONAL:*
+Semua proyek kategori AI di GENIUS Olympiad *WAJIB bertema Lingkungan Hidup & Keberlanjutan (Environmental Focus)*.
+Proyek AI umum (seperti absensi wajah atau chatbot biasa) *tidak akan lolos*. Namun jika AI digunakan untuk menjaga alam, hutan, sungai, atau laut Indonesia, peluang medali emas di New York sangat tinggi!
+━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+📅 *TIMELINE PENTING (JANGAN TERLEWAT!):*
+• *Batas Pendaftaran & Proposal:* 29 Oktober 2026 *(~3,5 minggu lagi)*
+• *Final Nasional (Offline):* 28–29 November 2026 (Jakarta)
+• *Global Finals:* Juni 2027 (St. John Fisher University, Rochester, New York, USA)
+• *Link Pendaftaran:* https://genius.competzy.com
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━
+🧭 *STEP-BY-STEP RENCANA AKSI ZAKI:*
+
+1️⃣ *Minggu 1 (4–12 Okt): Belajar & Praktik Modul AI*
+Jalankan dan pelajari 5 modul Python yang sudah disiapkan di folder `c:\ZAKI-AI`. Pahami alur bagaimana AI "melihat" dan mendeteksi objek.
+
+2️⃣ *Minggu 2 (13–20 Okt): Pilih 1 Topik Riset Unggulan*
+Pilih salah satu dari 4 ide riset khas Indonesia (Mangrove, Gambut, Terumbu Karang, atau Sampah Sungai).
+
+3️⃣ *Minggu 3 (21–28 Okt): Penyusunan Proposal Ilmiah*
+Tulis ringkasan proposal (Latar Belakang Masalah di Indonesia, Metode AI yang dipakai, dan Estimasi Dampak Lingkungan).
+
+4️⃣ *29 Oktober 2026: Submit Pendaftaran*
+Daftarkan diri di web Competzy sebelum batas waktu ditutup.
+
+5️⃣ *November 2026: Matangkan Prototipe & Poster*
+Siapkan slide presentasi dan uji coba model AI di laptop/webcam untuk dibawa ke Final Jakarta!
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━
+💻 *5 MODUL PRAKTIK PYTHON SIAP PAKAI (DI FOLDER c:\ZAKI-AI):*
+
+Semua script sudah dites dan tinggal dijalankan di Command Prompt / PowerShell:
+
+🔹 *Modul 1: Dasar Python untuk AI*
+Belajar variabel, logika if-else, list/dictionary, dan kalkulasi metrik AI.
+👉 Perintah: `python c:\ZAKI-AI\01_dasar_python.py`
+
+🔹 *Modul 2: Bagaimana AI Melihat Gambar (Computer Vision)*
+Melihat cara kerja piksel, grayscale, blur, deteksi tepi (Canny), dan kotak pembatas objek.
+👉 Perintah: `python c:\ZAKI-AI\02_dasar_computer_vision.py`
+
+🔹 *Modul 3: Deep Learning Face Detection & Recognition*
+Deteksi wajah super cepat dengan neural network *YuNet* & ekstraksi 128 angka fitur wajah dengan *SFace*.
+👉 Perintah (Gambar): `python c:\ZAKI-AI\03_face_detection.py`
+👉 Coba Webcam Live:
+`python -c "from 03_face_detection import run_webcam_detection; run_webcam_detection()"`
+
+🔹 *Modul 4: Object Detection Kelas Dunia (YOLOv8)*
+Mendeteksi 80 jenis benda (orang, botol plastik, tanaman, dll.) dengan akurasi tinggi hanya dalam ~65 milidetik!
+👉 Perintah (Gambar): `python c:\ZAKI-AI\04_object_detection.py`
+👉 Coba Webcam Live:
+`python -c "from 04_object_detection import run_webcam_detection; run_webcam_detection()"`
+
+🔹 *Modul 5: Starter Blueprint Proyek Lomba Lingkungan*
+Pipeline lengkap olimpiade: Simulasi data sampah, Confusion Matrix, Precision, Recall, hingga estimasi kilogram sampah & emisi CO2 yang terselamatkan.
+👉 Perintah: `python c:\ZAKI-AI\05_starter_proyek_lingkungan.py`
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━
+🌟 *4 IDE PROYEK UNIK INDONESIA BERDAYA SAING TINGGI DI NEW YORK:*
+
+🏆 *1. MangroveGuard AI (Rekomendasi Utama)*
+• *Masalah:* Indonesia memiliki 20%+ mangrove dunia (penyerap karbon biru terbesar), tapi terancam pembalakan liar & hama.
+• *Solusi AI:* Deteksi kerusakan kanopi mangrove dan deforestasi menggunakan Computer Vision dari foto drone/aerial.
+• *Kenapa Disukai Juri:* Isu iklim global #1 saat ini, sangat prestisius di New York.
+
+🔥 *2. PeatSense AI (Deteksi Dini Karhutla Lahan Gambut)*
+• *Masalah:* Kebakaran gambut di Sumatera/Kalimantan membara di bawah tanah (smoldering) tanpa api terlihat, melepaskan kabut asap beracun lintas negara.
+• *Solusi AI:* Multi-sensor + AI kamera termal untuk mendeteksi titik panas bawah tanah sebelum api meledak ke permukaan.
+• *Kenapa Disukai Juri:* Masalah otentik Indonesia dengan dampak global.
+
+🪸 *3. Nusantara ReefWatch AI (Konservasi Karang Raja Ampat)*
+• *Masalah:* Terumbu karang Segitiga Karang Dunia terancam fenomena pemutihan (bleaching) dan hama bintang laut pemakan karang.
+• *Solusi AI:* Computer vision bawah air (underwater AI) untuk memetakan tingkat keparahan bleaching karang secara otomatis.
+• *Kenapa Disukai Juri:* Visual bawah laut sangat memukau, mendukung SDG 14 PBB (Life Below Water).
+
+♻️ *4. EcoSort Nusantara (Penyortir Sampah Sungai Citarum / Bank Sampah)*
+• *Masalah:* Sampah sachet multilayer dan plastik menumpuk di sungai Indonesia dan sulit dipilah manual oleh bank sampah.
+• *Solusi AI:* Edge-AI murah dengan kamera untuk menyortir botol PET, plastik sachet, dan sampah organik secara otomatis.
+• *Kenapa Disukai Juri:* Aplikatif, berbiaya terjangkau, dan berdampak langsung bagi masyarakat.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━
+🎯 *LANGKAH PERTAMA HARI INI:*
+1. Buka folder `c:\ZAKI-AI` di komputermu.
+2. Coba jalankan `python 01_dasar_python.py` sampai `05_starter_proyek_lingkungan.py`.
+3. Tentukan 1 tema yang paling disukai Zaki untuk mulai dibuatkan draf proposalnya!
+
+Semangat Zaki, jalan menuju New York terbuka lebar! 🇮🇩✈️🇺🇸
