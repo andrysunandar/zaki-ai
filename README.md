@@ -51,8 +51,12 @@ zaki-ai/
 ├── 05_proyek_lingkungan_genius/      # Modul 5: Template proposal ilmiah & evaluasi SDGs
 │   ├── main.py
 │   └── README.md
+├── 06_freshcheck_data_processing/    # Modul 6: Pipeline Pengolahan Dataset Buah & Prediksi RSL Q10
+│   ├── main.py
+│   └── README.md
 ├── assets/                           # Galeri hasil olah citra & visualisasi
 ├── docs/                             # Dokumen panduan lomba & format WhatsApp
+│   ├── DAFTAR_PROYEK_MENARIK.md      # Katalog lengkap 16 ide riset unggulan
 │   ├── IDE_PROYEK_INDONESIA.md       # Detail 4 proposal riset unggulan khas Indonesia
 │   └── PANDUAN_LOMBA_WHATSAPP.txt    # Teks ringkasan siap dibagikan via WhatsApp
 ├── models/                           # Bobot model neural network (YuNet, SFace, YOLOv8)
@@ -142,6 +146,16 @@ pip install -r requirements.txt
 * **Perintah:**
   ```bash
   python 05_proyek_lingkungan_genius/main.py
+  ```
+
+---
+
+### 🔹 Modul 6: Pipeline Pengolahan Dataset Buah & Prediksi Shelf Life (FreshCheck AI)
+* **Tujuan:** Mengolah dataset citra mentah untuk mendeteksi kesegaran buah, bintik kebusukan mikro (*Brown Spot Area - BSA %*), augmentasi data, dan memadukannya dengan suhu iklim tropis Indonesia ($Q_{10}$) untuk memprediksi **Remaining Shelf Life (RSL)** serta memicu diskon dinamis penyelamat *food waste*.
+* **Hasil Visual:** Masking HSV dan augmentasi otomatis disimpan ke folder `output/`.
+* **Perintah:**
+  ```bash
+  python 06_freshcheck_data_processing/main.py
   ```
 
 ---
